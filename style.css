@@ -1,0 +1,131 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+/* TODO: design your profile with CSS */
+/*colors & fonts*/
+
+body {
+  background-color: rgb(235, 235, 235);
+  color: rgb(30, 30, 30);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+h1 {
+  color: #226ce0;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+h2 {
+  color: rgb(68,68,68);
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+
+a {
+  color: rgb(30, 30, 30);
+}
+a:hover {
+  text-decoration: none;
+  color: #226CE0;
+  opacity: 0.5;
+}
+
+/*Details*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+.card-white {
+  background-color: white;
+  margin: 32px auto;
+  padding: 24px;
+  border-radius: 4px;
+  box-shadow: 1px 10px 30px rgba(0,0,0,0.2);
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-profile-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  object-fit: cover;
+  border: 3px solid #cccccc;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 16px;
+}
+
+.img-movie-small {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/*#contact li, a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#contact:hover li, a {
+  text-decoration: none;
+  color: #226CE0;
+  opacity: 0.5;
+}*/
+
+.contact-no-deco-grey {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#contact-no-deco-grey:hover {
+  text-decoration: none;
+  color: #226CE0;
+  opacity: 0.5;
+}
+
+.img-ciclabile {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.table-centered {
+  margin: 0 auto;
+}
+
